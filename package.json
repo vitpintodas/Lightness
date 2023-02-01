@@ -1,0 +1,20 @@
+{
+  "name": "lightness",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.25%, not dead",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Simon Pinkas",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "color-convert": "^2.0.1",
+    "invert-color": "^2.0.0",
+    "notyf": "^3.10.0"
+  }
+}
