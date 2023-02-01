@@ -1,9 +1,5 @@
 import * as convert from "color-convert";
 
-import { Notyf } from "notyf";
-import "notyf/notyf.min.css";
-const notyf = new Notyf();
-
 export const generatePalette = (hex) => {
   // crée un tableau vide.
   const colors = [];
